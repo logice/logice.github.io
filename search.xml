@@ -74,9 +74,23 @@
       </tags>
   </entry>
   <entry>
-    <title>vue-element-admin-master增加多标签页</title>
+    <title>Hexo入门教程</title>
+    <url>/post/20210609173608.html</url>
+    <content><![CDATA[<h3 id="一、启动"><a href="#一、启动" class="headerlink" title="一、启动"></a>一、启动</h3><p>命令：<code> hexo g &amp;&amp; hexo s</code><br>hexo g 的意思是生成静态HTML文件，hexo s的意思是启动hexo服务</p>
+<h3 id="二、创建文章"><a href="#二、创建文章" class="headerlink" title="二、创建文章"></a>二、创建文章</h3><p>命令：<code>hexo n --path /fund/文件名 文件标题</code><br>这个命令会在<code>source/_posts/fund/</code>路径下创建文件</p>
+<h3 id="三、发布到自己的博客"><a href="#三、发布到自己的博客" class="headerlink" title="三、发布到自己的博客"></a>三、发布到自己的博客</h3><p>命令：<code> hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
+<h3 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h3>]]></content>
+      <categories>
+        <category>技术分享</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue-element-template增加多标签页</title>
     <url>/post/20210616155756.html</url>
-    <content><![CDATA[<h3 id="vue-element-admin-master增加多标签页"><a href="#vue-element-admin-master增加多标签页" class="headerlink" title="vue-element-admin-master增加多标签页"></a>vue-element-admin-master增加多标签页</h3><p><strong>一、从vue-element-admin复制文件:</strong></p>
+    <content><![CDATA[<h3 id="vue-element-template增加多标签页"><a href="#vue-element-template增加多标签页" class="headerlink" title="vue-element-template增加多标签页"></a>vue-element-template增加多标签页</h3><p><strong>一、从vue-element-admin复制文件:</strong></p>
 <blockquote>
 <p>vue-admin-template\src\layout\components\TagsView  文件夹<br>vue-admin-template\src\store\modules\tagsView.js</p>
 </blockquote>
@@ -118,18 +132,9 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo入门教程</title>
-    <url>/post/20210609173608.html</url>
-    <content><![CDATA[<h3 id="一、启动"><a href="#一、启动" class="headerlink" title="一、启动"></a>一、启动</h3><p>命令：<code> hexo g &amp;&amp; hexo s</code><br>hexo g 的意思是生成静态HTML文件，hexo s的意思是启动hexo服务</p>
-<h3 id="二、创建文章"><a href="#二、创建文章" class="headerlink" title="二、创建文章"></a>二、创建文章</h3><p>命令：<code>hexo n --path /fund/文件名 文件标题</code><br>这个命令会在<code>source/_posts/fund/</code>路径下创建文件</p>
-<h3 id="三、发布到自己的博客"><a href="#三、发布到自己的博客" class="headerlink" title="三、发布到自己的博客"></a>三、发布到自己的博客</h3><p>命令：<code> hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
-<h3 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h3>]]></content>
-      <categories>
-        <category>技术分享</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
+    <title>vue-element-template点击侧边栏刷新当前路由</title>
+    <url>/post/20210616163818.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>爬虫到底是什么</title>
@@ -154,18 +159,6 @@
       </tags>
   </entry>
   <entry>
-    <title>随便聊聊</title>
-    <url>/post/20210609173847.html</url>
-    <content><![CDATA[<h3 id="生活就是生下来活下去"><a href="#生活就是生下来活下去" class="headerlink" title="生活就是生下来活下去"></a>生活就是生下来活下去</h3><p>没事出来聊几句，证明自己还在奋斗。</p>
-<h3 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h3>]]></content>
-      <categories>
-        <category>闲谈扯淡</category>
-      </categories>
-      <tags>
-        <tag>琐事</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何看待虚拟币</title>
     <url>/post/20210609173742.html</url>
     <content><![CDATA[<p>虚拟币不是比特币</p>
@@ -175,6 +168,18 @@
       </categories>
       <tags>
         <tag>虚拟币</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>随便聊聊</title>
+    <url>/post/20210609173847.html</url>
+    <content><![CDATA[<h3 id="生活就是生下来活下去"><a href="#生活就是生下来活下去" class="headerlink" title="生活就是生下来活下去"></a>生活就是生下来活下去</h3><p>没事出来聊几句，证明自己还在奋斗。</p>
+<h3 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h3>]]></content>
+      <categories>
+        <category>闲谈扯淡</category>
+      </categories>
+      <tags>
+        <tag>琐事</tag>
       </tags>
   </entry>
   <entry>
